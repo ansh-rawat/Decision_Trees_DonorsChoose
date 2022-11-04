@@ -2,7 +2,7 @@
 
 Dataset link: https://www.kaggle.com/competitions/donorschoose-application-screening/data
 
-Since the dataset has mostly the categorical feautes therefore, I've first encoded the all the features using one hot encoding and applied 
+Since the dataset has mostly the categorical features therefore, I've first encoded the all the features using one hot encoding and applied 
 TFIDF Weighted Word2Vec on the feature 'essay' which is the most imporant criteria whether the funding of the project would be approved or not.
 
 To apply Word2Vec I've used GloVe: https://en.wikipedia.org/wiki/GloVe
